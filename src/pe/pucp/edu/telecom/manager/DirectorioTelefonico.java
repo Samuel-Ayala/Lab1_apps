@@ -8,10 +8,11 @@ import java.util.List;
 
 
 public class DirectorioTelefonico {
+    ArrayList<Usuario> listaUsuario = new ArrayList<>();
 
     public void anhadirUsuarioAlaLista(Usuario usuario){
 
-       /* prueba mover */ ArrayList<Usuario> listaUsuario = new ArrayList<>();
+
         Usuario usu = new Usuario();
 
         usu.setNombres(usuario.getNombres());
