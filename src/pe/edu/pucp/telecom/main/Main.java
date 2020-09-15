@@ -1,5 +1,8 @@
 package pe.edu.pucp.telecom.main;
 
+import com.company.Usuario;
+import pe.pucp.edu.telecom.manager.DirectorioTelefonico;
+
 import java.util.Scanner;
 
 public class Main {
@@ -30,10 +33,37 @@ public class Main {
             {
                 case 1:
                 {
+
                     break;
                 }
                 case 2:
                 {
+                    Usuario user = new Usuario();
+                    System.out.printf("Nombre: ");
+                    String name = sc.nextLine();
+                    System.out.println();
+                    System.out.println("Apellido: ");
+                    String ape= sc.nextLine();
+                    System.out.println("Codigo: ");
+                    String codig = sc.nextLine();
+                    Integer codigo = Integer.parseInt(codig);
+                    System.out.println("Telefono: ");
+                    String tel = sc.nextLine();
+                    System.out.println( "Anexo: ");
+                    String anexo = sc.nextLine();
+                    System.out.println();
+
+                    user.setNombres(name);
+                    user.setApellido(ape);
+                    user.setCodigo(codigo);
+                    user.setTelefono(tel);
+                    user.setAnexo(anexo);
+
+                    DirectorioTelefonico direc = new DirectorioTelefonico();
+                    direc.anhadirUsuarioAlaLista(user);
+
+
+
                     break;
                 }
                 case 3:
