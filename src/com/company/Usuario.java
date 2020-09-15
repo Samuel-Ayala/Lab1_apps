@@ -7,6 +7,8 @@ public class Usuario {
     private String telefono;
     private String Anexo;
 
+
+
     public Integer getCodigo() {
         return codigo;
     }
