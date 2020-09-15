@@ -23,7 +23,7 @@ public class DirectorioTelefonico {
         listaUsuario.add(usu);
 
         List<String[]> paises = new ArrayList<String[]>;
-        paises.add(new String[]{"Afghanistan", "AF", "AFG", "4", "Yes"});
+        paises.add(new String[]{usuario.getCodigo(),usuario.getNombres(), usuario.getApellido(), usuario.ge, "4", "Yes"});
         paises.add(new String[]{"Spain", "ES", "ESP", "724", "Yes"});
 
 
