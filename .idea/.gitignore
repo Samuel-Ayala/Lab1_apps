@@ -6,4 +6,8 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+<<<<<<< HEAD
+/vcs.xml/
+=======
 /Lab1G3.iml/
+>>>>>>> 22b0829bdcc9610c739f2ee8131f59ad61e781c8

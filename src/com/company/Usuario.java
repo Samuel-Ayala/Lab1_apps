@@ -1,19 +1,22 @@
 package com.company;
 
 public class Usuario {
-    private Integer codigo;
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    private int codigo;
     private String nombres;
     private String apellido;
     private String telefono;
     private String Anexo;
 
-    public Integer getCodigo() {
-        return codigo;
-    }
 
-    public void setCodigo(Integer codigo) {
-        this.codigo = codigo;
-    }
+
 
     public String getNombres() {
         return nombres;
